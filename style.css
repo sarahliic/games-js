@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.box {
+  margin: 1rem;
+  padding: 2rem 0;
+  cursor: pointer;
+  text-align: center;
+}
